@@ -3,33 +3,33 @@ export const projects = [
         title: "QCommerce",
         subtitle: "PHP Laravel | MySQL",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-1.gif",
-        link: "https://reactbootcamp.com",
+            "An E-Commerce Software as a Service (Saas) project that integrates Lazada Open Platform, Shopee Open Platform, Shopify API, and WooCommerce API to connect e-commerce shops across different e-commerce platforms for unified inventory tracking and order management",
+        image: "./images/qcommerce.gif",
+        link: "",
     },
     {
         title: "DOST R3 NSTW 2020: Virtual Exhibit",
         subtitle: "HTML | Javascript | Java | MySQL",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-2.gif",
-        link: "https://reedbarger.com",
+            "An Online Web Exhibit for the National Science and Technology Week 2020 featuring Region III projects and researches for Kalusugan, Kaayusan, Kabuhayan, and Kinabukasan",
+        image: "./images/virtual-exhibit.gif",
+        link: "",
     },
     {
         title: "Biahe TARA (Travel Augmented Reality App)",
         subtitle: "Java Android | Google Cloud Platform | Firebase",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
-        link: "https://jsbootcamp.com",
+            "An Android App for my undergrad thesis that has the following features: show descriptions about a particular food establishment, translate signages with foreign characters into characters readable for the tourist, and provide a list of available local activities for tourists' experiential learning",
+        image: "./images/biahe-tara.gif",
+        link: "",
     },
     {
         title: "TwistHRM",
         subtitle: "ReactJS | NodeJS | MySQL",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
+            "A Human Resource Management project that I worked on with a team, during my internship. The Web App includes a list of employees' information and background, and a list of machines allocated to each employee for inventory management",
+        image: "./images/twisthrm.gif",
+        link: "",
     },
 ];
 
