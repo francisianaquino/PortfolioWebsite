@@ -37,19 +37,19 @@ export const skills = ["JavaScript", "ReactJS", "NodeJS", "Java, Spring", "PHP, 
 
 export const experiences = [
     {
-        quote: ["Works in the development of an E-Commerce SaaS project", "Develops APIs with e-commerce APIs like WooCommerce API, Lazada Open Platform, and Shopee Open Platform"],
+        description: ["Works in the development of an E-Commerce SaaS project", "Integrates e-commerce APIs like WooCommerce API, Lazada Open Platform, and Shopee Open Platform"],
         image: "",
         name: "Fullstack Developer",
         company: "Quedy Media | Apr 2021 - present",
     },
     {
-        quote: ["Developed a Web Virtual Research Exhibit for DOST R3", "Worked on the backend development using Java", "Assisted other team members in frontend development"],
+        description: ["Developed a Web Virtual Research Exhibit for DOST R3", "Worked on the backend development using Java", "Assisted other team members in frontend development"],
         image: "",
         name: "Freelance Software Developer",
         company: "Nov 2020 - Dec 2020",
     },
     {
-        quote: ["Developed a web application using Agile-Scrum Methodologies", "Built APIs using NodeJS and web pages using ReactJS", "Participated in database normalization, usability testing, and sprint planning and review with the team"],
+        description: ["Developed a web application using Agile-Scrum Methodologies", "Built APIs using NodeJS and web pages using ReactJS", "Participated in database normalization, usability testing, and sprint planning and review with the team"],
         image: "",
         name: "Software Developer Intern",
         company: "Twist Resources Inc. | Apr 2019 - Jun 2019",
