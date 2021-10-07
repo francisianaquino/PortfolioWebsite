@@ -11,6 +11,7 @@ import Blog from "./components/Blog";
 import Logocloud from "./components/Logocloud";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import MetaTags from 'react-meta-tags';
 
 export default function App() {
   return (
@@ -22,14 +23,23 @@ export default function App() {
     //   <Experiences />
     //   <Contact />
     // </main>
-    <main className="">
-      <Header />
-      <Hero />
-      <Blog />
-      <Logocloud />
-      <Features />
-      <Contact />
-      <Footer />
-    </main>
+    <div className="wrapper">
+      <MetaTags>
+        <title>Francis Ian Aquino</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </MetaTags>
+      <div className="content">
+        <main className="">
+          <Header />
+          <Hero />
+          <Blog />
+          <Logocloud />
+          <Features />
+          <Contact />
+          <Footer />
+        </main>
+      </div>
+    </div>
+
   );
 }
