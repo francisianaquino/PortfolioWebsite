@@ -23,9 +23,9 @@ export default function Hero() {
                             </p>
 
                             <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
-                                <a href="#" class="inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">View My Work</a>
+                                <a href="#projects" class="inline-block bg-green-500 hover:bg-green-600 active:bg-green-700 focus-visible:ring ring-green-300 text-white text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">View My Work</a>
 
-                                <a href="#" class="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-green-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Contact Me</a>
+                                <a href="#contact" class="inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-green-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Contact Me</a>
                             </div>
                         </div>
 
@@ -35,21 +35,21 @@ export default function Hero() {
                             <span class="w-12 h-px bg-gray-200"></span>
 
                             <div class="flex gap-4">
-                                <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                                <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                                     <Gmail class="w-5 h-5"/>
-                                </a>
+                                </button>
 
-                                <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                                <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                                     <Linkedin class="w-5 h-5"/>
-                                </a>
+                                </button>
 
-                                <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                                <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                                     <Github class="w-5 h-5"/>
-                                </a>
+                                </button>
 
-                                <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                                <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                                     <Behance class="w-5 h-5"/>
-                                </a>
+                                </button>
                             </div>
                         </div>
                         {/* <!-- social - end --> */}

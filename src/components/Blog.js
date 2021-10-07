@@ -49,13 +49,13 @@ export default function Blog() {
                     {/* <!-- card - start --> */}
                     {projects.map((project) => (
                         <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
-                            <a href="#" class="block group h-48 md:h-64 bg-gray-100 overflow-hidden relative">
+                            <button href="#" class="block group h-48 md:h-64 bg-gray-100 overflow-hidden relative">
                                 <img src={project.image} loading="lazy" alt="by Minh Pham" class="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200" />
-                            </a>
+                            </button>
 
                             <div class="flex flex-col flex-1 p-4 sm:p-6">
                                 <h2 class="text-gray-800 text-lg font-semibold text-center mb-2">
-                                    <a href="#" class="hover:text-green-500 active:text-green-600 transition duration-100">{project.title}</a>
+                                    <button href="#" class="hover:text-green-500 active:text-green-600 transition duration-100">{project.title}</button>
                                 </h2>
                                 <h3 className="text-green-400 text-md font-semibold text-center mb-2">
                                     {project.subtitle}

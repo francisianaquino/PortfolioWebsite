@@ -31,7 +31,7 @@ export default function Contact() {
                 <div class="md:w-1/2 relative w-full bg-green-800 rounded-md pt-24 pb-8 px-8 shadow-md hover:shadow-lg transition flex flex-col items-center">
                     <div class="absolute rounded-full bg-gray-100 w-28 h-28 lg:w-32 lg:h-32 p-2 z-10 -top-8 lg:-top-12 shadow-lg hover:shadow-xl transition">
                         <div class="rounded-full bg-black w-full h-full overflow-auto">
-                            <img src="" />
+                            <img src="" alt="" />
                         </div>
                     </div>
                     <h3 class="font-bold text-2xl sm:text-3xl md:text-2xl lg:text-3xl text-white">

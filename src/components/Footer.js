@@ -29,21 +29,21 @@ export default function Footer() {
 
                     {/* <!-- social - start --> */}
                     <div class="flex gap-4">
-                        <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                        <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                             <Gmail class="w-5 h-5"/>
-                        </a>
+                        </button>
 
-                        <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                        <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                             <Linkedin class="w-5 h-5"/>
-                        </a>
+                        </button>
 
-                        <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                        <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                             <Github class="w-5 h-5"/>
-                        </a>
+                        </button>
 
-                        <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
+                        <button href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                             <Behance class="w-5 h-5"/>
-                        </a>
+                        </button>
                     </div>
                     {/* <!-- social - end --> */}
                 </div>
