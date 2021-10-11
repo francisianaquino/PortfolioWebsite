@@ -1,33 +1,33 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import {ReactComponent as Spring} from "../svg/spring.svg";
+import {ReactComponent as Reactjs} from "../svg/reactjs.svg";
+import {ReactComponent as Nodejs} from "../svg/nodejs.svg";
+import {ReactComponent as Laravel} from "../svg/laravel.svg";
+import {ReactComponent as Mysql} from "../svg/mysql.svg";
+import {ReactComponent as Java} from "../svg/java.svg";
+import {ReactComponent as Javascript} from "../svg/javascript.svg";
+import {ReactComponent as Php} from "../svg/php.svg";
+import { CodeIcon } from "@heroicons/react/solid";
+
+const skills = [
+    <Reactjs />, <Nodejs />, <Java  />, <Spring />,  <Php />, <Laravel />, <Mysql />, <Javascript />,
+];
 
 export default function Skills() {
     return (
-        <section id="skills">
-            <div className="container px-5 py-10 mx-auto my-10 rounded-lg bg-dark-gray2">
-                <div className="text-center mb-20">
-                    <ChipIcon className="w-10 inline-block mb-4" />
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-                        Skills &amp; Technologies
-                    </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-                        ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-                        possimus est.
-                    </p>
-                </div>
-                <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                    {skills.map((skill) => (
-                        <div key={skill} className="p-2 sm:w-1/2 w-full">
-                            <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                                <span className="title-font font-medium text-white">
-                                    {skill}
-                                </span>
-                            </div>
-                        </div>
+        <section id="skills" class="bg-custom-white py-12 sm:py-16 lg:py-24">
+            <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+                <CodeIcon className="mx-auto w-10 mb-4 text-green-400" />
+                <h2 class="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-8">Skills &amp; Technologies</h2>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 shadow-lg bg-green-100 rounded-lg p-3">
+                    {/* <!-- logo - start --> */}
+                    {skills.map((item) => (
+                    <div class="flex justify-center p-3">
+                        <i class="w-auto h-12 sm:h-14 lg:h-16">{item}</i>
+                    </div>
                     ))}
+                    {/* <!-- logo - end --> */}
                 </div>
             </div>
         </section>
