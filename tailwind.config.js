@@ -73,7 +73,8 @@ module.exports = {
   variants: {
     extend: {
       backgroundColor: ['active'],
-      textColor: ['active']
+      textColor: ['active'],
+      scale: ['active', 'group-hover'],
     },
   },
   plugins: [],

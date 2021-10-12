@@ -47,7 +47,7 @@ export default function Projects() {
                 </div>
                 {/* <!-- text - end --> */}
 
-                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6 xl:gap-8 mb-4 md:mb-8">
+                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mb-4 md:mb-8">
                     {/* <!-- card - start --> */}
                     {projects.map((project) => (
                         <div class="flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden">

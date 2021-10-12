@@ -30,8 +30,8 @@ export default function Contact() {
             <div className="max-w-screen-2xl px-4 md:px-8 mx-auto flex flex-col md:flex-row gap-8 lg:gap-16 items-center justify-center pt-10 md:pt-0">
                 <div class="md:w-1/2 relative w-full bg-green-800 rounded-md pt-24 pb-8 px-8 shadow-md hover:shadow-lg transition flex flex-col items-center">
                     <div class="absolute rounded-full bg-gray-300 w-28 h-28 lg:w-32 lg:h-32 p-2 z-10 -top-8 lg:-top-12 shadow-lg hover:shadow-xl transition">
-                        <div class="rounded-full bg-black w-full h-full overflow-auto">
-                            <img src="" alt="" />
+                        <div class="rounded-full bg-black w-full h-full overflow-hidden">
+                            <img class="transform scale-125 object-cover object-top w-full h-full" src="/images/profile.JPG" alt="profile-pic" />
                         </div>
                     </div>
                     <h3 class="font-bold text-2xl sm:text-3xl md:text-2xl lg:text-3xl text-gray-300">
