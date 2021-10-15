@@ -19,7 +19,7 @@ export default function Navbar() {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        <nav class={(navbar ? 'bg-gray-900' : 'bg-transparent') + ' fixed w-full z-20'}>
+        <nav class={(navbar ? 'bg-gray-900 border-b border-green-500 shadow-xl' : 'bg-transparent') + ' fixed w-full z-20'}>
             <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
                 <Popover>
                     <header class="flex justify-between items-center py-2 md:py-4">

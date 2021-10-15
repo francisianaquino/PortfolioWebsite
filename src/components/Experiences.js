@@ -4,7 +4,7 @@ import { BriefcaseIcon, UsersIcon } from "@heroicons/react/solid";
 export const experiences = [
     {
         description: ["Works in the development of an E-Commerce SaaS project using PHP Laravel", "Integrates e-commerce APIs like WooCommerce API, Lazada Open Platform, and Shopee Open Platform"], image: "",
-        position: "Fullstack Developer",
+        position: "Full Stack Developer",
         company: "Quedy Media | Apr 2021 - Present",
     },
     {

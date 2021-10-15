@@ -16,7 +16,7 @@ export default function About() {
                             </h1>
 
                             <p class="text-gray-500 md:text-lg xl:text-xl font-semibold mb-4 md:mb-6">
-                                A Junior Software Developer, and a Computer Engineering graduate. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                A Software Developer and a Computer Engineering graduate, with skills and experience in building Web and Mobile Applications, and is currently working as a Full Stack Developer.
                             </p>
 
                             <div class="flex flex-col sm:flex-row justify-center gap-2.5">
