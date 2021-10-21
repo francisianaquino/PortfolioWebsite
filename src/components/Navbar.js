@@ -1,12 +1,14 @@
 import React, { Fragment } from "react";
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import { Link } from 'react-scroll';
 
 const navigation = [
-    { name: 'Projects', href: '#projects' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Experiences', href: '#experiences' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'About', href: 'about' },
+    { name: 'Projects', href: 'projects' },
+    { name: 'Skills', href: 'skills' },
+    { name: 'Experiences', href: 'experiences' },
+    { name: 'Contact', href: 'contact' },
 ];
 
 export default function Navbar() {
@@ -19,23 +21,22 @@ export default function Navbar() {
     window.addEventListener('scroll', changeBackground);
 
     return (
-        <nav class={(navbar ? 'bg-gray-900 border-b border-green-500 shadow-xl' : 'bg-transparent') + ' fixed w-full z-20'}>
-            <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+        <nav className={(navbar ? 'bg-gray-900 border-b border-green-500 shadow-xl' : 'bg-transparent') + ' fixed w-full z-20'}>
+            <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
                 <Popover>
-                    <header class="flex justify-between items-center py-2 md:py-4">
+                    <header className="flex justify-between items-center py-2 md:py-4">
                         {/* <!-- logo - start --> */}
-                        <a href="#about" class="inline-flex items-center text-green-500 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
+                        <Link to={navigation[0].href} spy={true} smooth={true} className="inline-flex items-center text-green-500 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
                             Francis Ian Aquino
-                        </a>
+                        </Link>
                         {/* <!-- logo - end --> */}
 
                         {/* <!-- nav - start --> */}
-                        <nav class="hidden lg:flex gap-12">
-                            <a href="#about" class="text-green-500 text-lg font-semibold">Home</a>
+                        <nav className="hidden lg:flex gap-12">
                             {navigation.map((item) => (
-                                <a key={item.name} href={item.href} className="text-gray-500 hover:text-green-500 active:text-green-700 text-lg font-semibold transition duration-100">
+                                <Link activeClass="text-green-500" to={item.href} spy={true} smooth={true} className="text-gray-500 hover:text-green-500 active:text-green-700 text-lg font-semibold transition duration-100">
                                     {item.name}
-                                </a>
+                                </Link>
                             ))}
                         </nav>
                         {/* <!-- nav - end --> */}
@@ -64,9 +65,9 @@ export default function Navbar() {
                         >
                             <div className="rounded-lg shadow-md bg-gray-900 ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div className="px-5 pt-4 flex items-center justify-between">
-                                    <a href="#about" class="inline-flex items-center text-green-500 text-base font-bold gap-2.5" aria-label="logo">
+                                    <Link to={navigation[0].href} spy={true} smooth={true} className="inline-flex items-center text-green-500 text-base font-bold gap-2.5" aria-label="logo">
                                         Francis Ian Aquino
-                                    </a>
+                                    </Link>
                                     <div className="-mr-2">
                                         <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-900 hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
                                             <span className="sr-only">Close main menu</span>
@@ -76,13 +77,15 @@ export default function Navbar() {
                                 </div>
                                 <div className="px-2 pt-2 pb-3 space-y-1">
                                     {navigation.map((item) => (
-                                        <a
-                                            key={item.name}
-                                            href={item.href}
-                                            className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-gray-900 hover:bg-gray-400"
+                                        <Link
+                                            activeClass="text-green-500"
+                                            to={item.href}
+                                            spy={true}
+                                            smooth={true}
+                                            className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 active:text-green-700 hover:text-gray-900 hover:bg-gray-400"
                                         >
                                             {item.name}
-                                        </a>
+                                        </Link>
                                     ))}
                                 </div>
                             </div>

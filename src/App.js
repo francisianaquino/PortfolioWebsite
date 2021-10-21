@@ -6,10 +6,11 @@ import Skills from "./components/Skills";
 import Experiences from "./components/Experiences";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import 'locomotive-scroll/dist/locomotive-scroll';
 
 export default function App() {
   return (
-    <main className="">
+    <main>
       <Navbar />
       <About />
       <Projects />

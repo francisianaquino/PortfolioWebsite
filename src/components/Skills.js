@@ -15,16 +15,16 @@ const skills = [
 
 export default function Skills() {
     return (
-        <section id="skills" class="bg-custom-white py-12 sm:py-16 lg:py-24">
-            <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+        <section id="skills" className="bg-custom-white py-12 sm:py-16 lg:py-24">
+            <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
                 <CodeIcon className="mx-auto w-10 mb-4 text-green-400" />
-                <h2 class="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-8">Skills &amp; Technologies</h2>
+                <h2 className="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-8">Skills &amp; Technologies</h2>
 
-                <div class="grid grid-cols-2 md:grid-cols-4 shadow-lg bg-green-100 rounded-lg p-3">
+                <div className="grid grid-cols-2 md:grid-cols-4 shadow-lg bg-green-100 rounded-lg p-3">
                     {/* <!-- logo - start --> */}
                     {skills.map((item) => (
-                    <div class="flex justify-center p-3">
-                        <i class="w-auto h-12 sm:h-14 lg:h-16">{item}</i>
+                    <div className="flex justify-center p-3">
+                        <i className="w-auto h-12 sm:h-14 lg:h-16">{item}</i>
                     </div>
                     ))}
                     {/* <!-- logo - end --> */}

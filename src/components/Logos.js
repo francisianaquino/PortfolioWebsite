@@ -6,21 +6,21 @@ import { ReactComponent as Behance } from "../svg/behance.svg";
 
 export default function Logos() {
     return (
-        <div class="flex gap-4">
-            <a href="mailto:fisaquino@gmail.com" target="_blank" rel="noreferrer" class="text-current hover:text-green-500 active:text-green-600 transition duration-100">
-                <Gmail class="w-5 h-5" />
+        <div className="flex gap-4">
+            <a href="mailto:fisaquino@gmail.com" target="_blank" rel="noreferrer" className="text-current hover:text-green-500 active:text-green-700 transition duration-100">
+                <Gmail className="w-5 h-5" />
             </a>
 
-            <a href="https://linkedin.com/in/francisianaquino" target="_blank" rel="noreferrer" class="text-current hover:text-green-500 active:text-green-600 transition duration-100">
-                <Linkedin class="w-5 h-5" />
+            <a href="https://linkedin.com/in/francisianaquino" target="_blank" rel="noreferrer" className="text-current hover:text-green-500 active:text-green-700 transition duration-100">
+                <Linkedin className="w-5 h-5" />
             </a>
 
-            <a href="https://github.com/francisianaquino" target="_blank" rel="noreferrer" class="text-current hover:text-green-500 active:text-green-600 transition duration-100">
-                <Github class="w-5 h-5" />
+            <a href="https://github.com/francisianaquino" target="_blank" rel="noreferrer" className="text-current hover:text-green-500 active:text-green-700 transition duration-100">
+                <Github className="w-5 h-5" />
             </a>
 
-            <a href="https://behance.net/francisianaquino" target="_blank" rel="noreferrer" class="text-current hover:text-green-500 active:text-green-600 transition duration-100">
-                <Behance class="w-5 h-5" />
+            <a href="https://behance.net/francisianaquino" target="_blank" rel="noreferrer" className="text-current hover:text-green-500 active:text-green-700 transition duration-100">
+                <Behance className="w-5 h-5" />
             </a>
         </div>
     );

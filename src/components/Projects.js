@@ -34,36 +34,36 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section id="projects" class="bg-white py-12 sm:py-16 lg:py-24">
-            <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
+        <section id="projects" className="bg-white py-12 sm:py-16 lg:py-24">
+            <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
                 {/* <!-- text - start --> */}
-                <div class="mb-10 md:mb-16">
+                <div className="mb-10 md:mb-16">
                     <DesktopComputerIcon className="mx-auto w-10 mb-4 text-green-500" />
-                    <h2 class="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-6">Projects</h2>
+                    <h2 className="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-6">Projects</h2>
 
-                    <p class="max-w-screen-md text-gray-700 md:text-lg text-center mx-auto">
+                    <p className="max-w-screen-md text-gray-700 md:text-lg text-center mx-auto">
                         Projects and Apps that I worked on from my internship and thesis, up to my current job.
                     </p>
                 </div>
                 {/* <!-- text - end --> */}
 
-                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mb-4 md:mb-8">
+                <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8 mb-4 md:mb-8">
                     {/* <!-- card - start --> */}
                     {projects.map((project) => (
-                        <div class="flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden">
-                            <div class="block group h-48 md:h-64 bg-gray-100 overflow-hidden relative">
-                                <img src={project.image} loading="lazy" alt={project.title} class="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200" />
+                        <div className="flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                            <div className="block group h-48 md:h-64 bg-gray-100 overflow-hidden relative">
+                                <img src={project.image} loading="lazy" alt={project.title} className="w-full h-full object-cover object-center absolute inset-0 transform group-hover:scale-110 transition duration-200" />
                             </div>
 
-                            <div class="flex flex-col flex-1 p-4 sm:p-6">
-                                <h2 class="text-gray-800 text-lg font-semibold text-center mb-2">
+                            <div className="flex flex-col flex-1 p-4 sm:p-6">
+                                <h2 className="text-gray-800 text-lg font-semibold text-center mb-2">
                                     {project.title}
                                 </h2>
                                 <h3 className="text-green-500 text-md font-semibold text-center mb-2">
                                     {project.subtitle}
                                 </h3>
 
-                                <p class="text-gray-700 mb-8">{project.description}</p>
+                                <p className="text-gray-700 mb-8">{project.description}</p>
                             </div>
                         </div>
                     ))}
