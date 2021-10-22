@@ -4,10 +4,10 @@ import { Link } from 'react-scroll';
 
 export default function About() {
     return (
-        <div id="about" className="bg-custom-gray-700 bg-hero bg-cover bg-center bg-blend-overlay h-screen">
-            <div className="max-w-screen-2xl px-4 md:px-8 mx-auto flex items-center h-full">
+        <div id="about" className="bg-custom-gray-700 bg-hero bg-cover bg-center bg-blend-overlay flex h-screen justify-center items-center">
+            <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
             
-                <section className="flex flex-col items-center">
+                <section className="flex justify-center">
                     {/* <!-- content - start --> */}
                     <div className="lg:w-1/2 flex flex-col items-center text-center">
 

@@ -17,8 +17,10 @@ export default function Skills() {
     return (
         <section id="skills" className="bg-custom-white py-12 sm:py-16 lg:py-24">
             <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
-                <CodeIcon className="mx-auto w-10 mb-4 text-green-400" />
-                <h2 className="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-8">Skills &amp; Technologies</h2>
+                <div className="mb-10 md:mb-16">
+                    <CodeIcon className="mx-auto w-10 mb-4 text-green-400" />
+                    <h2 className="text-gray-900 text-3xl lg:text-4xl font-bold text-center mb-4 md:mb-8">Skills &amp; Technologies</h2>
+                </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 shadow-lg bg-green-100 rounded-lg p-3">
                     {/* <!-- logo - start --> */}
