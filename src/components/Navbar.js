@@ -27,7 +27,7 @@ export default function Navbar() {
                     <header className="flex justify-between items-center py-2 md:py-4">
                         {/* <!-- logo - start --> */}
                         <Link to={navigation[0].href} spy={true} smooth={true} className="inline-flex items-center text-green-500 text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
-                            Francis Ian Aquino
+                            <img className={'h-8 rounded-md md:h-9 md:rounded-lg ' + (navbar ? 'border border-green-500' : '')} src="/android-chrome-192x192.png" alt="logo" /> Francis Ian Aquino
                         </Link>
                         {/* <!-- logo - end --> */}
 
@@ -66,7 +66,7 @@ export default function Navbar() {
                             <div className="rounded-lg shadow-md bg-gray-900 ring-1 ring-black ring-opacity-5 overflow-hidden">
                                 <div className="px-5 pt-4 flex items-center justify-between">
                                     <Link to={navigation[0].href} spy={true} smooth={true} className="inline-flex items-center text-green-500 text-base font-bold gap-2.5" aria-label="logo">
-                                        Francis Ian Aquino
+                                        <img className="h-7 border border-green-500 rounded-md" src="/android-chrome-192x192.png" alt="logo" /> Francis Ian Aquino
                                     </Link>
                                     <div className="-mr-2">
                                         <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-900 hover:bg-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
