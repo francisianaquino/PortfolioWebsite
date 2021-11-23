@@ -11,14 +11,14 @@ const projects = [
     },
     {
         title: "DOST R3 NSTW 2020: Virtual Exhibit",
-        subtitle: "HTML | Javascript | Java | MySQL",
+        subtitle: "HTML | Javascript | Java SpringBoot | MySQL",
         description:
             "An Online Web Exhibit for the National Science and Technology Week 2020 featuring Region III projects and researches for Kalusugan, Kaayusan, Kabuhayan, and Kinabukasan.",
         image: "/images/virtual-exhibit.gif",
     },
     {
-        title: "Biahe TARA (Travel Augmented Reality App)",
-        subtitle: "Java Android | Google Cloud Platform | Firebase",
+        title: "Biahe: TARA (Travel Augmented Reality App)",
+        subtitle: "Java Android | ARCore | Google Cloud Platform | Firebase",
         description:
             "An Android App for my undergrad thesis that has the following features: show descriptions about a particular food establishment, translate signages with foreign characters into characters readable for the tourist, and provide a list of available local activities for tourists' experiential learning.",
         image: "/images/biahe-tara.gif",
