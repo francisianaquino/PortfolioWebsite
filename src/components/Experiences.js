@@ -3,9 +3,19 @@ import { BriefcaseIcon, UsersIcon } from "@heroicons/react/solid";
 
 export const experiences = [
     {
+        description: ["Developed GraphQL APIs using Apollo GraphQL and NodeJS", "Built web pages and integrated APIs using React JS", "Collaborated with product manager and other team members for feature requirements"], image: "",
+        position: "Full Stack Developer",
+        company: "CL | Mar 2024 - Apr 2025",
+    },
+    {
+        description: ["Worked on an ERP project and a PWA project", "Developed REST APIs using Java SpringBoot, gRPC APIs using GoLang, and web pages using ReactJS", "Managed MySQL and PostgreSQL databases", "Helped in application deployment", "Collaborated with the team and clients for project updates", "Mentored other software engineers and interns", "Became a Technical/Team Lead after a year of employment"], image: "",
+        position: "Software Engineer",
+        company: "Hooli Software | Dec 2021 - Mar 2024",
+    },
+    {
         description: ["Works in the development of an E-Commerce SaaS project using PHP Laravel", "Integrates e-commerce APIs like WooCommerce API, Lazada Open Platform, and Shopee Open Platform"], image: "",
         position: "Full Stack Developer",
-        company: "Quedy Media | Apr 2021 - Present",
+        company: "Quedy Media | Apr 2021 - Dec 2021",
     },
     {
         description: ["Developed a Web Virtual Research Exhibit", "Worked on the backend development using Java SpringBoot", "Assisted other team members in frontend development"], image: "",

@@ -3,6 +3,27 @@ import { DesktopComputerIcon } from "@heroicons/react/solid";
 
 const projects = [
     {
+        title: "CLL",
+        subtitle: "ReactJS | NodeJS | ApolloGraphQL | MySQL",
+        description:
+            "A Software as a Service (Saas) platform and subscription-based marketplace that connects parents with child care providers, providing features like search filters, booking tools, scheduling, reviews, billing, and more.",
+        image: "/images/cl.png",
+    },
+    {
+        title: "SnapToApp",
+        subtitle: "ReactJS | GoLang | PostgreSQL",
+        description:
+            "An PWA project that lets users create and customize their own PWA applications. It's an innovative app builder platform designed to cater to various users, from small business owners to established organizations. With its user-friendly interface, you can create and customize mobile apps without any coding knowledge.",
+        image: "/images/snaptoapp.png",
+    },
+    {
+        title: "GMConnect",
+        subtitle: "ReactJS | Java SpringBoot | MySQL",
+        description:
+            "An ERP project used internally with multiple modules like financial report package, fleet safety, inventory management, acquisition checklist, etc.",
+        image: "/images/gmc.png",
+    },
+    {
         title: "QCommerce",
         subtitle: "PHP Laravel | MySQL",
         description:

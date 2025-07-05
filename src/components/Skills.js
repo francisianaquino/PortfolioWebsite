@@ -7,10 +7,12 @@ import {ReactComponent as Mysql} from "../svg/mysql.svg";
 import {ReactComponent as Java} from "../svg/java.svg";
 import {ReactComponent as Javascript} from "../svg/javascript.svg";
 import {ReactComponent as Php} from "../svg/php.svg";
+import {ReactComponent as PostgreSQL} from "../svg/postgresql.svg";
+import {ReactComponent as ApolloGraphQL} from "../svg/apollographql.svg";
 import { CodeIcon } from "@heroicons/react/solid";
 
 const skills = [
-    <Reactjs />, <Nodejs />, <Java  />, <Spring />,  <Php />, <Laravel />, <Mysql />, <Javascript />,
+    <Reactjs />, <Nodejs />, <Java  />, <Spring />,  <Php />, <Laravel />, <Mysql />, <Javascript />, <PostgreSQL />, <ApolloGraphQL />,
 ];
 
 export default function Skills() {

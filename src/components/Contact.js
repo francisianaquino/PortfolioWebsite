@@ -39,14 +39,14 @@ export default function Contact() {
                     </h3>
                     <h4 className="font-semibold text-base sm:text-xl md:text-base lg:text-xl text-gray-300">Software Developer</h4>
                     <p className="text-sm sm:text-base md:text-sm lg:text-base text-center my-1 mt-6 text-gray-300">
-                        <LocationMarkerIcon className="w-6 h-6 mr-2 inline-block" /> La Poblacion Villas, Concepcion, Lubao, Pampanga
+                        <LocationMarkerIcon className="w-6 h-6 mr-2 inline-block" /> Lubao, Pampanga, Philippines
                     </p>
                     <p className="text-sm sm:text-base md:text-sm lg:text-base text-center my-1 text-gray-300">
                         <MailIcon className="w-6 h-6 mr-2 inline-block" /> fisaquino@gmail.com
                     </p>
-                    <p className="text-sm sm:text-base md:text-sm lg:text-base text-center my-1 text-gray-300">
+                    {/* <p className="text-sm sm:text-base md:text-sm lg:text-base text-center my-1 text-gray-300">
                         <PhoneIcon className="w-6 h-6 mr-2 inline-block" /> 0927-488-9084
-                    </p>
+                    </p> */}
                 </div>
                 <form
                     netlify

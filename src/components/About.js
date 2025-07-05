@@ -17,7 +17,7 @@ export default function About() {
                             </h1>
 
                             <p className="text-gray-500 md:text-lg xl:text-xl font-semibold mb-4 md:mb-6">
-                                A Software Developer and a Computer Engineering graduate, with skills and experience in building Web and Mobile Applications, and is currently working as a Full Stack Developer.
+                                A Software Developer and a Computer Engineering graduate, with skills and experience in building Web and Mobile Applications, and is currently working as a Software Engineer.
                             </p>
 
                             <div className="flex flex-col sm:flex-row justify-center gap-2.5">
