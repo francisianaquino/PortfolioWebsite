@@ -1,5 +1,5 @@
 import React from "react";
-import { LocationMarkerIcon, PhoneIcon, MailIcon, ChatAlt2Icon } from "@heroicons/react/solid";
+import { LocationMarkerIcon, MailIcon, ChatAlt2Icon } from "@heroicons/react/solid";
 
 export default function Contact() {
     const [name, setName] = React.useState("");
